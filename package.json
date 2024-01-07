@@ -1,0 +1,49 @@
+{
+  "name": "epic-stream-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "storybook": "storybook dev -p 6006"
+  },
+  "dependencies": {
+    "@anatine/zod-mock": "^3.13.3",
+    "@faker-js/faker": "^8.3.1",
+    "@zodios/core": "^10.9.6",
+    "axios": "^1.6.3",
+    "date-fns": "^3.0.6",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1",
+    "react-use": "^17.4.2",
+    "vitest": "^1.1.1",
+    "zod": "^3.22.4",
+    "zod-dev": "^1.2.5",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.7",
+    "@storybook/addon-interactions": "^7.6.7",
+    "@storybook/addon-links": "^7.6.7",
+    "@storybook/blocks": "^7.6.7",
+    "@storybook/react": "^7.6.7",
+    "@storybook/react-vite": "^7.6.7",
+    "@storybook/test": "^7.6.7",
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "eslint-plugin-storybook": "^0.6.15",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.6.7",
+    "vite": "^5.0.8"
+  }
+}
